@@ -1,57 +1,12 @@
-Block Recovery Bounty Program
+As I see it, and given the current circumstances, I consider this to be a more constructive and transparent approach to gather a complete and technical overview of assets across various blockchains, Web3 platforms, smart contracts, mining operations, and related ecosystems.
 
-## 📌 Bakgrunn
-Dette prosjektet er opprettet for å samle, dokumentere og koordinere belønningsprogrammer ("bounties") for tekniske bidrag til analyse, sporing, gjenoppretting og sikring av digitale verdier.
-Prosjektet bygger på prinsippene om åpenhet, fellesskap og respekt for de som har bidratt til å skape og vedlikeholde blokkjede-økosystemet, inkludert Bitcoin og relaterte teknologier.
+The aim is to document, verify, and recover blockchain-based assets by engaging developers, auditors, and security researchers through an open bounty structure. This repository serves as the central coordination point for:
+	•	Documentation of known assets, wallets, and transaction histories
+	•	Cross-chain analysis and technical verification
+	•	Mining and node operation history where applicable
+	•	Coordination of bounties for meaningful technical contributions
+	•	Reference to overarching initiatives such as The Social Node
 
-## 🎯 Hensikt
-- Gi noe tilbake til utviklere, bidragsytere og miljøet som har bygget grunnmuren for dagens blokkjeder.
-- Etablere et åpent bounty-system for å løse tekniske utfordringer relatert til blokkjededata, sikkerhet og OSINT-analyser.
-- Dokumentere funn og dele resultater i tråd med gjeldende lover og beste praksis.
+Evaluation of contributors will be ongoing, with a final review and allocation by 31 August 2025.
 
-## 🌍 The Social Node
-Prosjektet er også del av en overordnet visjon kalt *The Social Node*, som søker å fordele deler av blokkjedemidler til samfunnsnyttige formål. Dette initiativet er finansiert og drevet av midler fra blokkjedebaserte eiendeler.
-
-## 📅 Tidslinje
-- **Løpende evaluering** av kandidater og bidrag.
-- **Evalueringsstrek:** 31. august 2025.
-
-## 📂 Struktur
-- docs/ — Policy, retningslinjer og maler
-- public/blockchain/BTC/teasers/sample_trace.csv — Syntetisk eksempeldata for innledende tester
-- .github/ISSUE_TEMPLATE/bounty.yml — Mal for bounty-opprettelse
-- issues/ — Oversikt over individuelle bounties
-- private/finance/payouts.csv — Oversikt over planlagte eller utførte utbetalinger
-
-## 📬 Kontakt
-block.recovery.bounty@proton.me
-
----
-
-# Block Recovery Bounty Program (English)
-
-## 📌 Background
-This project was established to collect, document, and coordinate bounty programs for technical contributions to the analysis, tracing, recovery, and securing of digital assets.
-The project is based on the principles of transparency, community, and respect for those who have built and maintained the blockchain ecosystem, including Bitcoin and related technologies.
-
-## 🎯 Purpose
-- Give back to developers, contributors, and the community that built the foundation for today’s blockchains.
-- Establish an open bounty system for solving technical challenges related to blockchain data, security, and OSINT analysis.
-- Document findings and share results in accordance with applicable laws and best practices.
-
-## 🌍 The Social Node
-The project is also part of a broader vision called *The Social Node*, which aims to allocate part of blockchain funds to socially beneficial purposes. This initiative is funded and driven by blockchain-based assets.
-
-## 📅 Timeline
-- **Ongoing evaluation** of candidates and contributions.
-- **Evaluation cut-off:** August 31, 2025.
-
-## 📂 Structure
-- docs/ — Policies, guidelines, and templates
-- public/blockchain/BTC/teasers/sample_trace.csv — Synthetic example data for initial testing
-- .github/ISSUE_TEMPLATE/bounty.yml — Template for bounty creation
-- issues/ — Overview of individual bounties
-- private/finance/payouts.csv — Overview of planned or executed payouts
-
-## 📬 Contact
-block.recovery.bounty@proton.me
+📧 Contact: block.recovery.bounty@proton.me
