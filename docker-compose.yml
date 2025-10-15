@@ -1,24 +1,55 @@
-﻿services:
-  # Focused blockchain recovery analysis environment
+﻿
+services:
+  # SECURITY-HARDENED: Blockchain recovery analysis environment
   blockchain-recovery:
-    image: ubuntu:22.04
-    container_name: social-node-recovery-analysis
+    build: .
+    container_name: social-node-recovery-analysis-secure
     ports:
-      - "4080:4080"  # Primary IDL analysis port
+      - "127.0.0.1:4080:4080"  # SECURITY: Bind only to localhost
+      - "127.0.0.1:2222:2222"  # SECURITY: SSH on non-standard port, localhost only
     volumes:
-      - ./src:/workspace/src
-      - ./data:/workspace/data
-      - ./config:/workspace/config
-      - ./notebooks:/workspace/notebooks
+      # SECURITY: Read-only mounts where possible
+      - ./src:/home/recovery/workspace/src:ro
+      - ./config:/home/recovery/workspace/config:ro
+      # SECURITY: Separate writable volumes
+      - blockchain_analysis_data:/home/recovery/workspace/data
+      - recovery_notebooks:/home/recovery/workspace/notebooks
     networks:
       - recovery-net
     environment:
-      - RECOVERY_MODE=blockchain_analysis
+      - RECOVERY_MODE=secure_blockchain_analysis
+      - SECURITY_LEVEL=HIGH
+      - NO_INTERNET_ACCESS=true
+    # SECURITY: Remove network access during sensitive operations
+    network_mode: "none"
+    cap_drop:
+      - ALL
+    cap_add:
+      - CHOWN
+      - SETGID
+      - SETUID
+    security_opt:
+      - no-new-privileges:true
+    read_only: true
+    tmpfs:
+      - /tmp:noexec,nosuid,size=100m
     command: 
       - bash
       - -c
-      - "echo 'Blockchain Recovery Analysis Environment Ready' && echo 'Targets: BTC, ETH, LTC, STX, BSC, TRX, SOL + DeFi/Governance' && tail -f /dev/null"
+      - "echo 'SECURE Blockchain Recovery Analysis Ready - Network Isolated' && echo 'Security Level: HIGH - Air-Gapped Mode' && tail -f /dev/null"
 
 networks:
   recovery-net:
     driver: bridge
+    # SECURITY: Isolated internal network
+    internal: true
+    ipam:
+      config:
+        - subnet: 172.20.0.0/24
+
+volumes:
+  # SECURITY: Named volumes for sensitive data
+  blockchain_analysis_data:
+    driver: local
+  recovery_notebooks:
+    driver: local

@@ -1,82 +1,95 @@
-# IDL Team Collaboration Setup
+# Blockchain Recovery Structuring Project
 
-This directory contains configuration files and guidelines for collaborative IDL development.
+A comprehensive technical workspace for blockchain asset recovery, analysis, and restructuring across multiple chains and protocols. This project combines advanced IDL analysis tools with collaborative development environments to systematically document, verify, and recover blockchain-based assets.
 
-## Quick Start
+## Project Overview
 
-1. **IDL Session**: IDL is now running and ready for team collaboration
-2. **Remote Access**: Use VS Code Remote SSH/Tunnels for remote team access
-3. **Live Collaboration**: Use Live Share for real-time coding sessions
-4. **Version Control**: Git integration for IDL projects
+This repository serves as the central coordination point for blockchain asset recovery efforts, providing:
 
-## Team Workflow
+- **Multi-chain asset analysis** across BTC, ETH, LTC, STX, BSC, TRX, SOL and other blockchains
+- **Genesis mining rewards recovery** and early mining operation documentation  
+- **DeFi protocol position analysis** including governance tokens and voting rights
+- **Smart contract interaction history** and cross-chain verification
+- **Collaborative development environment** with IDL team tools for technical analysis
+- **Open bounty coordination** for meaningful technical contributions
 
-### 1. Remote Development Setup
-- Use VS Code Remote - SSH for accessing remote IDL installations
-- Configure tunnels for secure remote access
-- Share development environments with team members
+## Technical Architecture
 
-### 2. Live Collaboration
-- Start Live Share sessions for real-time collaborative coding
-- Share IDL console output and debugging sessions
-- Collaborate on ENVI image processing workflows
+### IDL Analysis Environment
+The workspace includes professional IDL (Interactive Data Language) tools for blockchain data analysis:
 
-### 3. IDL Project Structure
 ```
 project/
-├── src/           # IDL source files (.pro)
-├── data/          # Test data and datasets
-├── notebooks/     # IDL notebooks (.idlnb)
-├── docs/          # Documentation
-└── config/        # Project configuration
+├── src/                    # IDL analysis scripts (.pro)
+│   ├── blockchain_recovery_analysis.pro
+│   └── sample_team_project.pro
+├── config/                 # Blockchain configuration
+│   └── blockchain-recovery-config.json
+├── data/                   # Analysis datasets
+├── notebooks/              # IDL collaborative notebooks (.idlnb)
+└── docker-compose.yml      # Containerized analysis environment
 ```
 
-## IDL Development Best Practices for Teams
+### Supported Blockchain Targets
 
-### Code Standards
-- Use `compile_opt idl2` in all procedures and functions
-- Include proper documentation headers
-- Follow consistent naming conventions
-- Add main-level programs for testing
+**Primary Chains:**
+- Bitcoin (BTC) - Genesis mining rewards, early transactions
+- Ethereum (ETH) - Smart contracts, DeFi positions, governance tokens
+- Litecoin (LTC) - Mining operation history
+- Stacks (STX) - Bitcoin-anchored smart contracts
+- Binance Smart Chain (BSC) - BEP20 tokens, PancakeSwap LP
+- Tron (TRX) - TRC tokens and TRON DeFi ecosystem
+- Solana (SOL) - SPL tokens, NFTs, Solana DeFi protocols
 
-### Collaboration Guidelines
-- Use descriptive commit messages for IDL code changes
-- Share data processing workflows via IDL notebooks
-- Document ENVI processing chains for reproducibility
-- Use version control for IDL project files
+**Layer 2 & Sidechains:** Polygon, Arbitrum, Optimism
+**DeFi Protocols:** Uniswap, Compound, Aave, MakerDAO, Yearn, Curve
 
-### Remote Access Configuration
-- Port 4080 configured for team access
-- SSH tunneling available for secure remote connections
-- Live Share integration for real-time collaboration
+## Getting Started
 
-## Tools Available
+### Quick Start - Docker Environment
+```bash
+# Start the blockchain recovery analysis environment
+docker compose up -d
 
-1. **IDL Execution**: Run IDL code snippets and files
-2. **ENVI Integration**: Image processing and analysis
-3. **Notebook Creation**: Create collaborative IDL notebooks
-4. **Remote Access**: SSH and tunnel support
-5. **Live Share**: Real-time collaboration
-6. **Git Integration**: Version control for IDL projects
+# Connect to analysis workspace
+docker exec -it social-node-recovery-analysis bash
 
-## Getting Started Commands
-
-### Start IDL Session
-```
-IDL session is already running and ready for use
+# Access IDL analysis tools
+cd /workspace/src
 ```
 
-### Create IDL Notebook
-Use the IDL notebook creation tools to create shareable .idlnb files
+### Team Collaboration Setup
+1. **Remote Access**: Use VS Code Remote SSH/Tunnels for distributed team access
+2. **Live Share**: Real-time collaborative coding and debugging sessions  
+3. **IDL Analysis**: Run blockchain data analysis scripts and notebooks
+4. **Remote Tunnel**: Access via `https://vscode.dev/tunnel/SocialNodeandChain`
 
-### Remote Collaboration
-1. Start Live Share session from VS Code
-2. Share session link with team members
-3. Collaborate on IDL development in real-time
+### Security & Access
+- Port 4080: Primary IDL collaboration port
+- Secure SSH keys for remote repository access
+- Protected analysis environment for sensitive blockchain data
+- HTTPS for Live Share sessions and data transmission
 
-## Security Considerations
+## Bounty Program
 
-- Use secure SSH keys for remote access
-- Configure proper firewall rules for port 4080
-- Use HTTPS for Live Share sessions
-- Protect sensitive data in IDL processing workflows
+**Evaluation Period:** Ongoing through August 31, 2025
+**Focus Areas:**
+- Cross-chain asset verification and recovery methods
+- Mining operation and genesis reward documentation
+- Smart contract interaction analysis and governance token recovery
+- Technical verification of wallet and transaction histories
+- Development of automated recovery and analysis tools
+
+📧 **Contact:** block.recovery.bounty@proton.me
+
+## Technical Contribution Guidelines
+
+- Use `compile_opt idl2` in all IDL procedures and functions
+- Document blockchain analysis workflows via IDL notebooks
+- Follow secure coding practices for cryptocurrency handling
+- Version control all analysis scripts and configuration files
+- Coordinate through Live Share for real-time collaboration
+
+---
+
+*This project is part of [The Social Node](https://github.com/Strikkepinnene) ecosystem and blockchain recovery initiatives.*
