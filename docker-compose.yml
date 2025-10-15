@@ -14,13 +14,11 @@ services:
       # SECURITY: Separate writable volumes
       - blockchain_analysis_data:/home/recovery/workspace/data
       - recovery_notebooks:/home/recovery/workspace/notebooks
-    networks:
-      - recovery-net
     environment:
       - RECOVERY_MODE=secure_blockchain_analysis
       - SECURITY_LEVEL=HIGH
       - NO_INTERNET_ACCESS=true
-    # SECURITY: Remove network access during sensitive operations
+    # SECURITY: Air-gap mode - no network access during analysis
     network_mode: "none"
     cap_drop:
       - ALL
@@ -37,15 +35,6 @@ services:
       - bash
       - -c
       - "echo 'SECURE Blockchain Recovery Analysis Ready - Network Isolated' && echo 'Security Level: HIGH - Air-Gapped Mode' && tail -f /dev/null"
-
-networks:
-  recovery-net:
-    driver: bridge
-    # SECURITY: Isolated internal network
-    internal: true
-    ipam:
-      config:
-        - subnet: 172.20.0.0/24
 
 volumes:
   # SECURITY: Named volumes for sensitive data

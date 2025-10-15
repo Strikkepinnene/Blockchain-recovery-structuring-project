@@ -160,6 +160,25 @@ Specialized Legal Organizations
 ```
 
 ### Accounting Firm Contacts
+
+#### **PRIMARY TARGET: Forvis Mazars (Recommended)**
+```
+Forvis Mazars Norway - Digital Assets Practice:
+- Oslo Office: Cryptocurrency tax & Norwegian regulatory expertise
+- Global Network: Top 10 firm with international crypto specialization
+- Key Advantage: Local knowledge + global crypto expertise
+- Services: Norwegian tax optimization, cross-border compliance
+- Contact Priority: HIGH - Schedule initial consultation within 2 weeks
+
+Why Forvis Mazars is Optimal:
+✓ Strong Norwegian regulatory knowledge (critical for compliance)
+✓ Global Top 10 firm credibility and expertise network
+✓ More accessible than Big Four (potentially faster engagement)
+✓ Proven European digital asset practice
+✓ Cost-effective compared to Big Four while maintaining quality
+```
+
+#### **SECONDARY OPTIONS: Big Four Firms**
 ```
 Big Four Firms - Crypto Practices:
 - PwC Digital Assets Team
