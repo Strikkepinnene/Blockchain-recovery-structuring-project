@@ -8,21 +8,21 @@ ENV DISPLAY=:0
 
 # Security: Install minimal system dependencies + security tools
 RUN apt-get update && apt-get install -y \
-    wget \
     curl \
-    git \
-    ssh \
-    openssh-server \
-    gpg \
     fail2ban \
-    ufw \
-    xorg \
-    xvfb \
-    x11vnc \
     fluxbox \
-    supervisor \
+    git \
+    gpg \
+    openssh-server \
     python3 \
     python3-pip \
+    ssh \
+    supervisor \
+    ufw \
+    wget \
+    x11vnc \
+    xorg \
+    xvfb \
     && rm -rf /var/lib/apt/lists/* \
     && rm -rf /tmp/* \
     && rm -rf /var/tmp/*
