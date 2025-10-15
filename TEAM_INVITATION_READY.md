@@ -1,8 +1,8 @@
-﻿ THE SOCIAL NODE - TEAM COLLABORATION READY
+﻿# THE SOCIAL NODE - TEAM COLLABORATION READY
 
 Environment Status:  ONLINE
 - Docker Containers: Running smoothly
-- IDL Environment: localhost:4081 
+- IDL Environment: localhost:4081
 - Blockchain Dev: localhost:8545
 - Live Share: Ready to start
 
@@ -22,4 +22,4 @@ The workspace is configured for:
 
 Project Focus: Evolving crypto genesis structures in line with blockchain development since 2009 - a necessity-driven structural update, not a personality project.
 
-Team collaboration environment is ready! 
+Team collaboration environment is ready!

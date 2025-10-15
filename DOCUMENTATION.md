@@ -4,7 +4,7 @@
 **Version:** 1.0  
 **Date:** October 15, 2025  
 **Classification:** INTERNAL USE - No Sensitive Information  
-**Repository:** https://github.com/Strikkepinnene/Blockchain-recovery-structuring-project
+**Repository:** <https://github.com/Strikkepinnene/Blockchain-recovery-structuring-project>
 
 ---
 

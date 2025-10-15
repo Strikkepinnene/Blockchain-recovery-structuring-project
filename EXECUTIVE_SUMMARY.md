@@ -187,7 +187,7 @@ ssh-add ~/.ssh/id_rsa
 - **GitHub:** Strikkepinnene/Blockchain-recovery-structuring-project
 - **Security:** All commits GPG-signed, encrypted communications only
 - **Bounty Program:** Active through August 31, 2025
-- **Contact:** block.recovery.bounty@proton.me (encrypted only)
+- **Contact:** <block.recovery.bounty@proton.me> (encrypted only)
 
 ### Current Capabilities
 ✅ Multi-chain blockchain analysis framework  

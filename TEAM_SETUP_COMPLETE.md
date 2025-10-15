@@ -32,7 +32,7 @@ ms-vsliveshare.vsliveshare,ms-vscode-remote.remote-ssh,ms-vscode-remote.remote-s
 - X11 forwarding for GUI applications
 - Template SSH config provided
 
-#### 3. **Container Development** 
+#### 3. **Container Development**
 - Docker integration for IDL environments
 - Kubernetes support for scaled processing
 - Dev Containers for consistent team environments

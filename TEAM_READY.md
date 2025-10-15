@@ -1,4 +1,4 @@
-﻿#  The Social Node - Team Workspace Ready!
+﻿# The Social Node - Team Workspace Ready!
 
 ## Team Environment Status:  ONLINE
 
@@ -29,8 +29,8 @@ docker exec -it social-node-blockchain-team sh
 ```
 
 ### Available Services:
-- **IDL Collaboration**: http://localhost:4081
-- **Blockchain RPC**: http://localhost:8545
+- **IDL Collaboration**: <http://localhost:4081>
+- **Blockchain RPC**: <http://localhost:8545>
 - **Live Share**: Real-time collaborative editing
 
 ### Team Member Checklist:
@@ -39,13 +39,13 @@ docker exec -it social-node-blockchain-team sh
 - [ ] Access to workspace directory
 - [ ] Live Share session link received
 
-## Ready to Start Team Collaboration! 
+## Ready to Start Team Collaboration!
 
 Share the Live Share link with your team members to begin collaborative development.
 
 The workspace is configured with:
  IDL analysis environment (port 4081)
- Blockchain development tools (port 8545) 
+ Blockchain development tools (port 8545)
  Live Share ready for real-time collaboration
  Docker containers running and accessible
 

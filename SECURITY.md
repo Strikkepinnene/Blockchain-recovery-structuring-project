@@ -152,8 +152,8 @@ end
 
 ---
 
-⚠️ **CRITICAL REMINDER**: 
-The value of blockchain assets makes this project a high-value target for attackers. 
+⚠️ **CRITICAL REMINDER**:
+The value of blockchain assets makes this project a high-value target for attackers.
 Security is not optional - it's the foundation of successful recovery operations.
 
 🔒 **Security Contact**: security@[your-domain] (encrypted communication only)

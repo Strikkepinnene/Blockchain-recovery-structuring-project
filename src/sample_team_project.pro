@@ -4,9 +4,8 @@
 ; This is a template for collaborative IDL development
 ; Use this as a starting point for team projects
 
-compile_opt idl2
-
 pro sample_team_project, input_data, VERBOSE=verbose
+  compile_opt idl2
   ; Team collaboration example procedure
   
   if keyword_set(verbose) then print, 'Processing team data...'
@@ -16,8 +15,6 @@ pro sample_team_project, input_data, VERBOSE=verbose
   
   ; Display results for team review
   print, 'Team processing complete. Sample result:', result[0:4]
-  
-  return, result
 end
 
 ; Main level program for testing
