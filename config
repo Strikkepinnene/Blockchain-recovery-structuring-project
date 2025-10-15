@@ -1,0 +1,29 @@
+{
+  "idl.teamCollaboration": {
+    "enabled": true,
+    "port": 4080,
+    "remoteAccess": true,
+    "sharedSessions": true
+  },
+  "idl.development": {
+    "autoCompileOpt": true,
+    "compileOptLevel": "idl2",
+    "enableDocumentation": true,
+    "sharedNotebooks": true
+  },
+  "remote.SSH.configFile": "C:\\Users\\human\\.ssh\\config",
+  "liveShare.audio": true,
+  "liveShare.showInStatusBar": "whileCollaborating",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "idl.envi": {
+    "headlessMode": false,
+    "sharedDisplay": true,
+    "collaborativeProcessing": true
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "idl": "left"
+  }
+}

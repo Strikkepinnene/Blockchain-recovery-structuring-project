@@ -1,0 +1,96 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run IDL Team Workflow",
+            "type": "shell",
+            "command": "idl",
+            "args": ["-e", "@team_workflow.pro"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Start IDL Collaboration Session",
+            "type": "shell",
+            "command": "echo",
+            "args": ["Starting IDL for team collaboration on port 4080"],
+            "group": "build",
+            "dependsOn": ["Setup IDL Environment"]
+        },
+        {
+            "label": "Setup IDL Environment", 
+            "type": "shell",
+            "command": "powershell",
+            "args": ["-Command", "Write-Host 'IDL Environment Ready for Team Development'"],
+            "group": "build"
+        },
+        {
+            "label": "Deploy to Remote IDL Server",
+            "type": "shell",
+            "command": "scp",
+            "args": [
+                "-r",
+                "src/",
+                "idl-dev-server:/home/idl/projects/"
+            ],
+            "group": "deploy",
+            "presentation": {
+                "echo": true,
+                "reveal": "always"
+            }
+        },
+        {
+            "label": "Start IDL Docker Team Environment",
+            "type": "shell",
+            "command": "docker-compose",
+            "args": ["up", "-d"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Stop IDL Docker Team Environment",
+            "type": "shell",
+            "command": "docker-compose",
+            "args": ["down"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always"
+            }
+        },
+        {
+            "label": "Build IDL Team Container",
+            "type": "shell",
+            "command": "docker-compose",
+            "args": ["build", "--no-cache"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always"
+            }
+        },
+        {
+            "label": "Connect to IDL Container",
+            "type": "shell",
+            "command": "docker",
+            "args": ["exec", "-it", "idl-team-workspace", "/bin/bash"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always"
+            }
+        }
+    ]
+}

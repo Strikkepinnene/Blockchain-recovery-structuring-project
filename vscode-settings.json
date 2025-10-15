@@ -1,0 +1,63 @@
+{
+  "files.encoding": "utf8",
+  "files.autoGuessEncoding": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "args": ["-NoExit", "-Command", "[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; [Console]::InputEncoding = [System.Text.Encoding]::UTF8"]
+    }
+  },
+  "idl.teamCollaboration": {
+    "enabled": true,
+    "port": 4080,
+    "remoteAccess": true,
+    "sharedSessions": true
+  },
+  "idl.development": {
+    "autoCompileOpt": true,
+    "compileOptLevel": "idl2",
+    "enableDocumentation": true,
+    "sharedNotebooks": true,
+    "defaultEncoding": "utf8"
+  },
+  "remote.SSH.configFile": "C:\\Users\\human\\.ssh\\config",
+  "liveShare.audio": true,
+  "liveShare.showInStatusBar": "whileCollaborating",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "idl.envi": {
+    "headlessMode": false,
+    "sharedDisplay": true,
+    "collaborativeProcessing": true
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "idl": "left"
+  },
+  "files.associations": {
+    "*.pro": "idl",
+    "*.idlnb": "idl",
+    "*.sav": "idl"
+  },
+  "editor.defaultFormatter": "ms-python.black-formatter",
+  "[idl]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "idl.formatter"
+  },
+  "[powershell]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "files.encoding": "utf8"
+  },
+  "[json]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[markdown]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "files.trimTrailingWhitespace": false
+  }
+}

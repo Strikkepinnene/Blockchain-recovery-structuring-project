@@ -1,0 +1,24 @@
+﻿services:
+  # Focused blockchain recovery analysis environment
+  blockchain-recovery:
+    image: ubuntu:22.04
+    container_name: social-node-recovery-analysis
+    ports:
+      - "4080:4080"  # Primary IDL analysis port
+    volumes:
+      - ./src:/workspace/src
+      - ./data:/workspace/data
+      - ./config:/workspace/config
+      - ./notebooks:/workspace/notebooks
+    networks:
+      - recovery-net
+    environment:
+      - RECOVERY_MODE=blockchain_analysis
+    command: 
+      - bash
+      - -c
+      - "echo 'Blockchain Recovery Analysis Environment Ready' && echo 'Targets: BTC, ETH, LTC, STX, BSC, TRX, SOL + DeFi/Governance' && tail -f /dev/null"
+
+networks:
+  recovery-net:
+    driver: bridge

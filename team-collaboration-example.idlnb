@@ -1,0 +1,76 @@
+{
+  "version": "2.0.0",
+  "cells": [
+    {
+      "type": "markdown",
+      "content": [
+        "# IDL Team Collaboration Example",
+        "",
+        "This notebook demonstrates collaborative IDL development workflows.",
+        "",
+        "## Team Development Setup",
+        "- Real-time collaboration via Live Share",
+        "- Shared data processing workflows",
+        "- Version controlled IDL projects"
+      ]
+    },
+    {
+      "type": "code",
+      "content": [
+        "compile_opt idl2",
+        "",
+        "; Team collaboration example",
+        "; This procedure demonstrates shared IDL development",
+        "",
+        "pro team_data_analysis, input_data, output_path",
+        "  ; Process data collaboratively",
+        "  result = input_data * 2.0",
+        "  ",
+        "  ; Display results for team review",
+        "  print, 'Processing complete. Results:', result",
+        "  ",
+        "  ; Save for team sharing",
+        "  save, result, filename=output_path",
+        "end",
+        "",
+        "; Example usage",
+        "test_data = findgen(10)",
+        "team_data_analysis, test_data, 'team_results.sav'",
+        "",
+        "end"
+      ]
+    },
+    {
+      "type": "markdown",
+      "content": [
+        "## ENVI Team Processing",
+        "",
+        "Below is an example of collaborative image processing with ENVI."
+      ]
+    },
+    {
+      "type": "code",
+      "content": [
+        "compile_opt idl2",
+        "",
+        "; ENVI collaborative processing example",
+        "pro team_envi_workflow",
+        "  ; Start ENVI for team processing",
+        "  e = envi(/headless)  ; Use headless for remote collaboration",
+        "  ",
+        "  ; Example image processing workflow",
+        "  ; Teams can collaborate on this processing chain",
+        "  print, 'ENVI session ready for team collaboration'",
+        "  print, 'Version: ', e.version",
+        "  ",
+        "  ; Team members can now share processing workflows",
+        "end",
+        "",
+        "; Run the team workflow",
+        "team_envi_workflow",
+        "",
+        "end"
+      ]
+    }
+  ]
+}

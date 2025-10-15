@@ -1,0 +1,39 @@
+# IDL Team Collaboration SSH Config Template
+# Copy to ~/.ssh/config and customize for your team
+
+# Remote IDL Server Configuration
+Host idl-dev-server
+    HostName your-idl-server.domain.com
+    Port 22
+    User your-username
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    # Forward port 4080 for IDL collaboration
+    LocalForward 4080 localhost:4080
+    # Forward additional ports as needed
+    LocalForward 8080 localhost:8080
+
+# Team Development Server
+Host team-idl-box
+    HostName 192.168.1.100
+    Port 22
+    User idl-dev
+    ForwardX11 yes
+    # IDL and ENVI port forwarding
+    LocalForward 4080 localhost:4080
+    LocalForward 5900 localhost:5900  # VNC if needed
+
+# Cloud IDL Instance
+Host cloud-idl
+    HostName cloud-instance.compute.amazonaws.com
+    Port 22
+    User ec2-user
+    IdentityFile ~/.ssh/cloud-idl-key.pem
+    ForwardX11 yes
+    LocalForward 4080 localhost:4080
+
+# Instructions:
+# 1. Replace hostnames with your actual server addresses
+# 2. Update usernames and ports as needed
+# 3. Add your SSH keys
+# 4. Test connection: ssh idl-dev-server
