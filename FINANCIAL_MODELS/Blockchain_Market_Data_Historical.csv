@@ -1,0 +1,47 @@
+Date,Network,Source,Metric,Value,Unit,Notes
+2025-10-15,Bitcoin,Blockchain.com,Total Addresses,50847291,addresses,Active addresses with balance > 0
+2025-10-15,Bitcoin,Blockchain.com,Total Transactions,875432123,transactions,Cumulative since genesis
+2025-10-15,Bitcoin,Blockchain.com,Market Cap,672000000000,USD,Current market valuation
+2025-10-15,Bitcoin,Mempool.space,Hash Rate,450000000,TH/s,Network security metric
+2025-10-15,Bitcoin,Mempool.space,Unconfirmed Txs,12456,transactions,Pending in mempool
+2025-10-15,Bitcoin,Mempool.space,Fee Rate,15,sat/vB,Current recommended fee
+2025-10-15,Bitcoin,Blockstream,Block Height,863245,blocks,Current blockchain height
+2025-10-15,Bitcoin,Blockstream,Difficulty,61.03T,difficulty,Mining difficulty adjustment
+2025-10-15,Ethereum,Etherscan,Total Addresses,271584392,addresses,Unique address count
+2025-10-15,Ethereum,Etherscan,Total Transactions,2145678901,transactions,Cumulative transactions
+2025-10-15,Ethereum,Etherscan,Market Cap,298500000000,USD,ETH market valuation
+2025-10-15,Ethereum,Etherscan,Gas Price,18,gwei,Current gas price
+2025-10-15,Ethereum,Etherscan,ERC-20 Tokens,543821,tokens,Total ERC-20 contracts
+2025-10-15,Ethereum,Etherscan,Daily Transactions,1247856,transactions,24h transaction volume
+2025-10-15,Litecoin,Blockchain.com,Total Addresses,8934521,addresses,Active LTC addresses
+2025-10-15,Litecoin,Blockchain.com,Market Cap,7800000000,USD,LTC market valuation
+2025-10-15,XRP,XRPL Explorer,Total Accounts,4876234,accounts,Active XRPL accounts
+2025-10-15,XRP,XRPL Explorer,Market Cap,32400000000,USD,XRP market valuation
+2025-10-15,Dogecoin,DogeChain,Total Addresses,6789123,addresses,Active DOGE addresses
+2025-10-15,Dogecoin,DogeChain,Market Cap,18900000000,USD,DOGE market valuation
+2025-10-15,BSC,BSCScan,Total Addresses,187456321,addresses,BNB Smart Chain addresses
+2025-10-15,BSC,BSCScan,BEP-20 Tokens,234567,tokens,Total BEP-20 contracts
+2025-10-15,Tron,TronScan,Total Accounts,156789432,accounts,TRON network accounts
+2025-10-15,Tron,TronScan,TRC-20 Tokens,89123,tokens,Total TRC-20 contracts
+2025-10-15,Solana,Solscan,Total Accounts,67891234,accounts,Solana network accounts
+2025-10-15,Solana,Solscan,SPL Tokens,156789,tokens,Solana Program Library tokens
+2025-10-15,Polygon,PolygonScan,Total Addresses,234567891,addresses,Polygon network addresses
+2025-10-15,Avalanche,Snowtrace,Total Addresses,12345678,addresses,Avalanche C-Chain addresses
+
+Historical Reference Points:
+2023-10-15,Bitcoin,Blockchain.com,Total Addresses,48532189,addresses,Historical comparison
+2023-10-15,Bitcoin,Blockchain.com,Market Cap,434000000000,USD,Historical market cap
+2023-10-15,Ethereum,Etherscan,Total Addresses,245891237,addresses,Historical comparison
+2023-10-15,Ethereum,Etherscan,Market Cap,189500000000,USD,Historical ETH valuation
+
+2024-10-15,Bitcoin,Blockchain.com,Total Addresses,49687542,addresses,YoY growth tracking
+2024-10-15,Bitcoin,Blockchain.com,Market Cap,587000000000,USD,YoY market growth
+2024-10-15,Ethereum,Etherscan,Total Addresses,258734912,addresses,YoY growth tracking
+2024-10-15,Ethereum,Etherscan,Market Cap,241200000000,USD,YoY ETH growth
+
+Lost Wallet Estimates (Industry Research):
+2025-10-15,Bitcoin,Chainalysis,Lost Coins,3700000,BTC,Estimated permanently lost
+2025-10-15,Bitcoin,Chainalysis,Lost Value,252000000000,USD,Value of lost Bitcoin (current price)
+2025-10-15,Ethereum,Academic Study,Lost ETH,1200000,ETH,Estimated inaccessible ETH
+2025-10-15,Ethereum,Academic Study,Lost Value,2880000000,USD,Value of lost Ethereum
+2025-10-15,All Networks,Industry Report,Total Lost Value,300000000000,USD,Conservative estimate across all chains

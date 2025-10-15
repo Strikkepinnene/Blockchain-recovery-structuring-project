@@ -1,0 +1,52 @@
+Year,Scenario,Revenue_USD,Operating_Costs_USD,Gross_Profit_USD,Net_Profit_USD,Staff_Count,Market_Share_Percent,Cumulative_Cases,Success_Rate_Percent
+
+2025,Bearish,15000000,12000000,3000000,-2000000,8,0.5%,45,72%
+2025,Normal,32000000,18000000,14000000,8000000,12,1.1%,95,78%
+2025,Bullish,78000000,28000000,50000000,35000000,18,2.7%,230,85%
+
+2026,Bearish,35000000,22000000,13000000,3000000,15,0.9%,125,74%
+2026,Normal,75000000,38000000,37000000,22000000,25,2.1%,285,80%
+2026,Bullish,185000000,68000000,117000000,82000000,42,5.2%,695,87%
+
+2027,Bearish,85000000,48000000,37000000,22000000,28,1.8%,315,76%
+2027,Normal,185000000,78000000,107000000,68000000,48,3.9%,695,82%
+2027,Bullish,465000000,158000000,307000000,218000000,95,10.8%,1750,89%
+
+2028,Bearish,165000000,88000000,77000000,48000000,48,2.8%,615,78%
+2028,Normal,385000000,148000000,237000000,158000000,85,6.5%,1445,84%
+2028,Bullish,925000000,288000000,637000000,448000000,175,18.2%,3475,91%
+
+2029,Bearish,285000000,148000000,137000000,88000000,78,4.2%,1065,80%
+2029,Normal,675000000,248000000,427000000,288000000,145,9.8%,2535,86%
+2029,Bullish,1650000000,488000000,1162000000,828000000,285,28.5%,6195,93%
+
+Cost Structure Breakdown:
+Staff Costs,45%,Competitive salaries for blockchain experts
+Technology Infrastructure,20%,Servers hardware software licenses
+Legal & Compliance,15%,Regulatory compliance and legal support
+Marketing & Sales,10%,Customer acquisition and brand building
+Office & Operations,7%,Facilities utilities and admin costs
+Research & Development,3%,Innovation and service improvement
+
+Revenue Streams Detail:
+Wallet Recovery Services,40%,Individual and corporate wallet recovery
+Legal Evidence Services,25%,Court cases and forensic analysis
+Consulting Services,20%,Education training and advisory
+API Integration Services,10%,Technical integration for exchanges
+Training & Certification,5%,Professional development programs
+
+Key Performance Indicators:
+Customer Acquisition Cost (CAC):
+Bearish Scenario: $2500 per customer
+Normal Scenario: $1800 per customer  
+Bullish Scenario: $1200 per customer
+
+Customer Lifetime Value (CLV):
+Bearish Scenario: $8500 per customer
+Normal Scenario: $15200 per customer
+Bullish Scenario: $28500 per customer
+
+Monthly Recurring Revenue Growth:
+Bearish Scenario: 8% monthly growth
+Normal Scenario: 15% monthly growth
+Bullish Scenario: 28% monthly growth

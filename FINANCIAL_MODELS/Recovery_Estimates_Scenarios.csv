@@ -1,0 +1,46 @@
+Scenario,Probability,Recovery_Rate_Percent,Market_Penetration_Percent,Time_to_Market_Years,Total_Addressable_Market_USD,Serviceable_Available_Market_USD,Revenue_Year_1_USD,Revenue_Year_3_USD,Revenue_Year_5_USD,Cumulative_5_Year_Revenue_USD
+
+Bearish (Conservative),25%,12%,2.5%,3,300000000000,7500000000,15000000,125000000,350000000,1050000000
+Normal (Base Case),50%,18%,4.2%,2.5,360000000000,15120000000,32000000,285000000,675000000,2150000000
+Bullish (Optimistic),25%,25%,7.1%,2,710000000000,50410000000,78000000,820000000,1950000000,6200000000
+
+Service Type Breakdown - Bearish Scenario:
+Individual Wallet Recovery,35%,5250000,43750000,122500000
+Corporate Asset Recovery,25%,3750000,31250000,87500000
+Legal Evidence Services,20%,3000000,25000000,70000000
+Educational & Consulting,15%,2250000,18750000,52500000
+Technical Integration,5%,750000,6250000,17500000
+
+Service Type Breakdown - Normal Scenario:
+Individual Wallet Recovery,35%,11200000,99750000,236250000
+Corporate Asset Recovery,25%,8000000,71250000,168750000
+Legal Evidence Services,20%,6400000,57000000,135000000
+Educational & Consulting,15%,4800000,42750000,101250000
+Technical Integration,5%,1600000,14250000,33750000
+
+Service Type Breakdown - Bullish Scenario:
+Individual Wallet Recovery,35%,27300000,287000000,682500000
+Corporate Asset Recovery,25%,19500000,205000000,487500000
+Legal Evidence Services,20%,15600000,164000000,390000000
+Educational & Consulting,15%,11700000,123000000,292500000
+Technical Integration,5%,3900000,41000000,97500000
+
+Geographic Market Analysis - Normal Scenario:
+Norway,15%,4800000,42750000,101250000
+Nordic Region,35%,11200000,99750000,236250000
+EU Market,35%,11200000,99750000,236250000
+International,15%,4800000,42750000,101250000
+
+Risk Factors Impact on Scenarios:
+Regulatory Risk - Bearish,High Impact,-40% revenue potential,Extended timeline,Compliance costs
+Regulatory Risk - Normal,Medium Impact,-15% revenue potential,Standard timeline,Moderate costs
+Regulatory Risk - Bullish,Low Impact,+10% revenue potential,Accelerated timeline,Minimal costs
+
+Competition Impact:
+Market Competition - Bearish,High Competition,-30% market share,Pricing pressure,Higher CAC
+Market Competition - Normal,Moderate Competition,-10% market share,Stable pricing,Normal CAC
+Market Competition - Bullish,Low Competition,+20% market share,Premium pricing,Lower CAC
+
+Technology Adoption Rates:
+Tech Adoption - Bearish,Slow,25% expected rate,Conservative users,Education required
+Tech Adoption - Bullish,Rapid,150% expected rate,Early adopters,Market pull

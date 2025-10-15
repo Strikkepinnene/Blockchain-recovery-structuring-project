@@ -6,9 +6,9 @@
 ## 💰 **MARKET OPPORTUNITY SUMMARY**
 
 ### **Global Market Size**
-- **Total Addressable Market:** $330-650 billion USD (conservative estimate)
+- **Total Addressable Market:** $360-710 billion USD (conservative estimate)
 - **Bitcoin Alone:** $200-400 billion in potentially recoverable assets
-- **Multi-Chain Opportunity:** $130-250 billion across ETH, LTC, STX, BSC, TRX, SOL
+- **Multi-Chain Opportunity:** $160-310 billion across ETH, LTC, STX, BSC, TRX, SOL, XRP, DOGE, ERC-20s
 
 ### **Norwegian Market Potential**
 - **Individual Recovery:** NOK 2-5 billion potential

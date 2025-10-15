@@ -33,6 +33,9 @@ This Memorandum of Understanding establishes the framework for professional advi
 - Binance Smart Chain (BSC) - DeFi protocol and token recovery
 - Tron (TRX) - High-throughput network asset analysis
 - Solana (SOL) - Modern blockchain asset and NFT recovery
+- XRP (Ripple) - Enterprise payment network and escrow recovery
+- Dogecoin (DOGE) - Community-driven cryptocurrency and payment applications
+- ERC-20 Tokens - Comprehensive Ethereum-based token ecosystem recovery
 
 ---
 
@@ -245,6 +248,7 @@ This MoU shall be effective for an initial term of **twelve (12) months** from t
 **Secondary Jurisdictions:** Additional jurisdictions as required by project scope
 **Professional Standards:** Industry best practices and regulatory requirements
 **Compliance Monitoring:** Regular review and validation of regulatory adherence
+**Regulatory Engagement:** Preliminary discussions initiated with Finanstilsynet and preliminary contact established with Økokrim for transparency and compliance excellence
 
 ### 8.2 Professional Standards
 **Advisory Standards:** Adherence to professional industry standards and codes of conduct

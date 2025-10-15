@@ -8,7 +8,7 @@
 **Classification:** Professional Market Analysis - Stakeholder Presentation  
 **Purpose:** Economic Impact Assessment for Partners, Officials, and Advisory Entities  
 **Date:** October 15, 2025  
-**Scope:** Multi-Chain Blockchain Asset Recovery Market Potential  
+**Project Scope:** Systematic blockchain asset recovery operations across 10+ major networks including ERC-20 token ecosystem  
 
 ---
 
@@ -26,8 +26,8 @@
 **Conservative Market Size Estimates:**
 - **Bitcoin (BTC):** $200-400 billion in potentially recoverable assets
 - **Ethereum (ETH):** $80-150 billion in smart contract and DeFi positions
-- **Multi-Chain Assets:** $50-100 billion across Litecoin, Stacks, BSC, Tron, Solana
-- **Total Addressable Market:** $330-650 billion globally (conservative estimate)
+- **Multi-Chain Assets:** $80-160 billion across Litecoin, Stacks, BSC, Tron, Solana, XRP, Dogecoin, ERC-20 tokens
+- **Total Addressable Market:** $360-710 billion globally (conservative estimate)
 
 ### **Norwegian Market Potential**
 

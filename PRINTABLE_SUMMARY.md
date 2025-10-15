@@ -41,6 +41,9 @@ Comprehensive analysis across all major blockchain networks with specialized too
 - **Binance Smart Chain (BSC):** DeFi protocol and token recovery
 - **Tron (TRX):** High-throughput network asset analysis
 - **Solana (SOL):** Modern blockchain asset and NFT recovery
+- **XRP (Ripple):** Enterprise payment network and escrow recovery
+- **Dogecoin (DOGE):** Community-driven cryptocurrency and payment applications
+- **ERC-20 Tokens:** Comprehensive Ethereum-based token ecosystem recovery
 
 ### Security Implementation
 - **Air-Gap Capabilities:** Isolated network operation for sensitive processes

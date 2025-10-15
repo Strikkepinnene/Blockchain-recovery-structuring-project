@@ -45,6 +45,9 @@ The project involves advanced blockchain analysis using Interactive Data Languag
 - Binance Smart Chain (BSC) - DeFi protocol and token recovery
 - Tron (TRX) - High-throughput network asset analysis  
 - Solana (SOL) - Modern blockchain asset and NFT recovery
+- XRP (Ripple) - Enterprise payment network and escrow recovery
+- Dogecoin (DOGE) - Community-driven cryptocurrency and payment applications
+- ERC-20 Tokens - Comprehensive Ethereum-based token ecosystem recovery
 
 ---
 

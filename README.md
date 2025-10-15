@@ -53,7 +53,10 @@ project/
 - Stacks (STX) - Bitcoin-anchored smart contracts
 - Binance Smart Chain (BSC) - BEP20 tokens, PancakeSwap LP
 - Tron (TRX) - TRC tokens and TRON DeFi ecosystem
-- Solana (SOL) - SPL tokens, NFTs, Solana DeFi protocols
+- **Solana (SOL):** SPL tokens, NFTs, Solana DeFi protocols
+- - **XRP (Ripple):** Enterprise payment networks, escrow accounts, institutional holdings
+- **Dogecoin (DOGE):** Community-driven cryptocurrency and payment applications
+- **ERC-20 Tokens:** Comprehensive Ethereum-based token ecosystem recovery
 
 **Layer 2 & Sidechains:** Polygon, Arbitrum, Optimism
 **DeFi Protocols:** Uniswap, Compound, Aave, MakerDAO, Yearn, Curve
